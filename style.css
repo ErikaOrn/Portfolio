@@ -22,7 +22,7 @@
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(https://cur.cursors-4u.net/nature/nat-9/nat848.png), auto !important;} /* End https://www.cursors-4u.com */
 
-* {
+.lexend-<uniquifier> {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
