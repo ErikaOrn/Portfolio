@@ -46,7 +46,7 @@
   font-style: italic;
 }
 
-.lexend-<uniquifier> {
+* {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
