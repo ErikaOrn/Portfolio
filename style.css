@@ -22,7 +22,12 @@
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(https://cur.cursors-4u.net/nature/nat-9/nat848.png), auto !important;} /* End https://www.cursors-4u.com */
 
-
+* {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /*fonts and shit here dude!*/
 .bagel-fat-one-regular {
   font-family: "Bagel Fat One", system-ui;
@@ -46,12 +51,7 @@
   font-style: italic;
 }
 
-* {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+
 
 
 /*fonts end here lol*/
