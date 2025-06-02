@@ -166,8 +166,8 @@ nav {
 	margin-right: auto;
 	background-color: #bca4c7;
 }
-nav div {
-	font-family: "DM Serif Text";
+nav div {  
+	font-family: "Lexend";
 	text-align: center;
 	font-size: 1.25rem;
 	margin: 5px 5px 10px 5px;
@@ -187,13 +187,13 @@ nav a {
 		color: var(--txtblk);
 }
 nav a:link, nav a:visited { 
- 	font-family: "DM Serif Text";
+ 	  font-family: "Lexend";
 	color: var(--gradientBottom);
 	margin-left: auto;
 	margin-right: auto;
 }
 nav a:hover, nav a:focus {
-  	font-family: "DM Serif Text";
+  	  font-family: "Lexend";
 	background: #bca4c7;
 	text-decoration:none;
 	color: #bca4c7;
