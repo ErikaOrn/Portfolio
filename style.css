@@ -201,11 +201,11 @@ nav a {
 	text-decoration: none;
 	margin-left: auto;
 	margin-right: auto;
-		color: var(--txtblk);
+		color: white;
 }
 nav a:link, nav a:visited { 
  	  font-family: "Lexend";
-	color: var(--gradientBottom);
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
 }
