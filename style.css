@@ -299,14 +299,14 @@ background-color: #584a5c;
 }
 
 .lis {
-  font-family: "Bagel Fat One";
+    font-family: "Lexend";
   justify-content: space-between;
 	border-radius: 5px;
  	background-color: #bca4c7;
   display: table;
 }
 lis a {
-  font-family: "Bagel Fat One";
+  font-family: "Lexend";
   float:center;
   margin-left: auto;
   margin-right: auto;
