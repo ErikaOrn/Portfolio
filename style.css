@@ -10,9 +10,7 @@
 			--bg: rgb(92, 13, 73,.8);
 			--gradientBottom: rgb(128, 27, 114);
 			--gradientTop: #bca4c7;
-			a:link { color:white; 
-
-			}
+		}
 		}
 		header {
 			background: url('***dark mode banner image***');
