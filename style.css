@@ -244,18 +244,22 @@ h1 {
 }
 h2 { 
 	font-size: 1.4rem;
+	font-family: "Lexend";
 	font-weight: normal;
 	text-align: center;
 }
 h3 { 
+	font-family: "Lexend";
 	font-size: 1.1rem;
 }
 h4 { 
+	font-family: "Lexend";
 	font-size: 1rem;
 	color: var(--accent);
 	padding-left: 12px;
 }
 h5 {
+	font-family: "Lexend";
 	font-size:1.5rem;
 	margin: 10px;
 	font-weight: bold;
@@ -267,25 +271,6 @@ h5 {
 	color: #c90c7a;
 }
 
-.me {
-	max-width: 18%;
-	height:auto;
-	margin: 5px 24px 12px auto;
-	border: 6px ridge var(--border);
-	outline: 3px solid var(--gradientTop);
-	border-radius: 10px;
-  position: absolute;
-  left: 5;
-  top: 10;
-	flex-direction: row;
-	flex-wrap: wrap;
-	display: inline-block;
-	padding: 5px;
-	justify-content: space-evenly;
-
-	/* container background pattern */
-background-color: #584a5c;
-}
 
 
 .center {
