@@ -1,1 +1,13 @@
-ss
+abt { 
+	font-size: 50px;
+	font-weight: italic;
+  font-family: "Akaya Kanadaka";
+	text-align: left;
+  margin-left: 10%;
+}
+.abtcontainer {
+  display: flex;
+}
+.abtcontainer > div {
+  width:40%;
+}
