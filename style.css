@@ -210,7 +210,8 @@ nav a:link, nav a:visited {
 	margin-right: auto;
 }
 nav a:hover, nav a:focus {
-  	  font-family: "Lexend";
+	animation: wobble .2s linear infinite alternate;
+  	font-family: "Lexend";
 	background: #bca4c7;
 	text-decoration:none;
 	color: #bca4c7;
