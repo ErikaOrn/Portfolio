@@ -7,9 +7,9 @@ abt {
 }
 .abtcontainer {
   display: flex;
-	justify-conent:center;
+	justify-content:center;
 }
 .abtcontainer > div {
   width:40%;
-	justify-conent:center;
+	justify-content:center;
 }
