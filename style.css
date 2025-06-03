@@ -237,7 +237,6 @@ footer {
 	font-size: 20px;
 	background-color:#584a5c;
 	width:100%;
-	display: flex;
   	justify-content: center;
   	align-items: center;
 }
