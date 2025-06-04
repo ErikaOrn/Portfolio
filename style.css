@@ -102,9 +102,7 @@ background-color: #584a5c;
 	flex-wrap: wrap;
 	padding: 5px;
 	justify-content: space-evenly;
-	/* container background pattern */
-background-color: #584a5c;
-  /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
+	background-color: transparent;
 }
 
 }
