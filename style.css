@@ -272,6 +272,8 @@ h1 {
   font-family: "Bagel Fat One";
 	text-align: left;
   margin-left: 10%;
+	margin-bottom:0%;
+	margin-top:0%;
 }
 h2 { 
 	font-size: 1.4rem;
