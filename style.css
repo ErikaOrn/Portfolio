@@ -320,11 +320,11 @@ ul {
 li {
 	font-family: "Lexend";
 	position:sticky;
+	margin-right:3px;
 	float: right;
 	justify-content: space-between;
 	border-radius: 5px;
 	display: table;
-	border-spacing: 5px;
 	background-color: #bca4c7;
 }
 
