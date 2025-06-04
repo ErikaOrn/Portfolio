@@ -5,7 +5,7 @@ abt {
 	text-align: left;
 }
 .abtcontainer {
-  display: table;
+  display: flex;
 	margin-left:auto;
 	Margin-right:auto;
 	justify-content:center;
