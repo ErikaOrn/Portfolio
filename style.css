@@ -335,7 +335,7 @@ li a {
 	margin-right:auto;
 	margin: 5px;
 	border-radius: 5px;
-	padding: 2px 2px 2px 2px;
+	padding: 2px 2px 0px 2px;
 	display: block;
 	background-color: #bca4c7;
 }
