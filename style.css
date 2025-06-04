@@ -362,24 +362,23 @@ li a:visited {
 
 
 details {
-  float:left;
-  background-color: var(--bg);
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+	font-family: "Lexend";
+	float: right;
+	margin-left:auto;
+	margin-right:auto;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px 2px 0px 2px;
+	display: block;
+	background-color: #bca4c7;
 }
 
 summary {
-   background-color: var(--bg);
-  font-size: 1.75rem;
-	letter-spacing: 2px;
+   background-color: #bca4c7;
 	text-align: left;
-	padding-bottom: 5px;
-	padding-top:5px;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px 2px 0px 2px;
   font-weight: bold;
 }
 
