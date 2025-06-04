@@ -327,11 +327,24 @@ li {
 	padding: 2px 7px 2px 7px;
 	display: block;
 	padding: 8px;
+	background-color: #bca4c7;
 }
 
 li a {
 	font-family: "Lexend";
+	float: right;
+	justify-content: space-between;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 5px;
+	padding: 2px 7px 2px 7px;
+	display: block;
+	padding: 8px;
 	background-color: #bca4c7;
+}
+
+li a:visited {
+	color: white;
 }
 
 
