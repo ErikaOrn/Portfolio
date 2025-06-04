@@ -310,6 +310,27 @@ h5 {
   width: 50%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+	font-family: "Lexend";
+	float: right;
+}
+
+li a {
+	font-family: "Lexend";
+	display: block;
+	padding: 8px;
+	background-color: #bca4c7;
+	border-radius: 5px;
+	padding: 2px 7px 2px 7px;
+}
+
 .lis {
     font-family: "Lexend";
   justify-content: space-between;
