@@ -150,7 +150,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: white;
+  color: pink;
 }
 
 /* mouse over link */
@@ -332,28 +332,7 @@ li a {
 	padding: 2px 7px 2px 7px;
 }
 
-.lis {
-    font-family: "Lexend";
-  justify-content: space-between;
-	border-radius: 5px;
- 	background-color: #bca4c7;
-  display: table;
-}
-lis a {
-  font-family: "Lexend";
-  float:center;
-  margin-left: auto;
-  margin-right: auto;
-	margin: 5px;
-	background: #bca4c7;
-	border-radius: 5px;
-	padding: 2px 7px 2px 7px;
-	text-decoration: none;
-		color: var(--txtblk);
-}
-lis a:link, lis a:visited { 
-	color: var(--gradientBottom);
-}
+
 
 .a {
   display: block;
