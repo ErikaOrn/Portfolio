@@ -319,6 +319,7 @@ ul {
 
 li {
 	font-family: "Lexend";
+	position:fixed;
 	float: right;
 	justify-content: space-between;
 	border-radius: 5px;
