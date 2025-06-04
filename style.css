@@ -320,6 +320,7 @@ ul {
 li {
 	font-family: "Lexend";
 	float: right;
+	justify-content: space-between;
 }
 
 li a {
