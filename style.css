@@ -323,7 +323,8 @@ li {
 	float: right;
 	justify-content: space-between;
 	border-radius: 5px;
-	display: block;
+	display: table;
+	border-spacing:2px;
 	background-color: #bca4c7;
 }
 
