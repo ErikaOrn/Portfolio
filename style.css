@@ -394,12 +394,12 @@ details[open] {
 }
 
 details[open] summary {
-  background-color: var(--bg);
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
-  font-size: 1.75rem;
-	padding-bottom: 5px;
-	padding-top:5px;
+   background-color: #bca4c7;
+	text-align: left;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px 2px 0px 2px;
+  font-weight: bold;
 }
 
 }
