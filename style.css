@@ -321,8 +321,6 @@ li {
 	font-family: "Lexend";
 	float: right;
 	justify-content: space-between;
-	
-  display: table;
 }
 
 li a {
