@@ -150,6 +150,10 @@ a:link {
 
 /* visited link */
 a:visited {
+  color: white;
+}
+
+a:visited:hover {
   color: pink;
 }
 
