@@ -380,6 +380,9 @@ details {
 	display: block;
 	background-color: #bca4c7;
 }
+details:hover {
+	color:pink;
+}
 
 summary {
    background-color: #bca4c7;
