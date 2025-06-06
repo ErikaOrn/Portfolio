@@ -381,7 +381,7 @@ details {
 	background-color: #bca4c7;
 }
 details:hover {
-	color:purple;
+	color:#7c5b85;
 }
 
 summary {
@@ -405,7 +405,7 @@ details[open] {
 	border-radius: 5px;
 	padding: 2px 2px 0px 2px;
   font-weight: bold;
-	color:white;
+	color:#7c5b85;
 
 }
 
@@ -418,7 +418,7 @@ details[open] summary {
 	border-radius: 5px;
 	padding: 2px 2px 0px 2px;
   font-weight: bold;
-	color:white;
+	color:#7c5b85;
 }
 
 }
