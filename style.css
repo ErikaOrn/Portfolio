@@ -370,6 +370,7 @@ li a:visited {
 
 details {
 	font-family: "Lexend";
+	width:100%;
 	float: right;
 	margin-left:auto;
 	margin-right:auto;
