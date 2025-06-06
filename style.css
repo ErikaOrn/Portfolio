@@ -162,12 +162,12 @@ a:visited {
 }
 
 a:visited:hover {
-  color: pink;
+  color: color:#7c5b85;
 }
 
 /* mouse over link */
 a:hover {
-  color: pink;
+  color: color:#7c5b85;
 }
 
 /* selected link */
