@@ -49,6 +49,8 @@ clear: both;
 .modal-content {
     position: relative;
     
+ margin-left:auto;
+ margin-right:auto;
     margin: auto;
     padding: 0;
     width: 90%;
@@ -73,6 +75,8 @@ clear: both;
 
 .mySlides {
     display: none;
+ margin-left:auto;
+ margin-right:auto;
 }
 
 .prev,
