@@ -496,6 +496,7 @@ to {
   0%  {transform: rotate(1.5deg);}
   100% {transform: rotate(-1.5deg);}
 }
+}
 
 imglink {
    height: auto;
