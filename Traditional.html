@@ -1,0 +1,201 @@
+<html>
+
+
+<head>
+	<meta name="viewport" content="width=800px, initial-scale=1">
+	<meta charset="utf-8">
+	<title>ꕥDesignꕥ</title>
+  <link rel="icon" href="https://er1k4.neocities.org/favicon.ico">
+	<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="imggallery.css" rel="stylesheet" type="text/css" media="all">
+      <meta property="og:image" content="https://er1k4.neocities.org/assets/thumbnails/site%20thumb1home.png" />
+  <meta property="twitter:card" content="https://er1k4.neocities.org/assets/thumbnails/site%20thumb1home.png">
+
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bagel+Fat+One&family=DM+Serif+Text:ital@0;1&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+ 
+<script>
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  
+<center=left>
+<body>
+
+ 
+
+  <ul>
+  <li><a href="https://www.linkedin.com/in/erika-ornelas-a9613b298/">LinkedIn</a></li>
+  <li><a href="mailto:erikaornelas1201@gmail.com">Contact</a></li>
+  <li><a href="/About">About</a></li>
+  <li><a href="/">Home</a></li>
+</ul>
+	
+	 <h1 style="left:10%;"><i>Erika Ornelas</I></h1>
+
+	
+	
+<div class=subnavcontainer>
+  <ul style="float:none;">
+  <li><a href="#typography">Typography</a></li>
+  <li><a href="#publication">Publication Design</a></li>
+  <li><a href="#posters">Poster Design</a></li>
+  <li><a href="#branding">Branding</a></li>
+</ul>
+</div>
+
+	<header style="background:transparent;"> 
+		<span>Please click on each image for more info!</span>
+	</header>
+	  
+<div class="container">
+	
+
+	
+<section id="publication" class="full">
+	
+	<header style="background:transparent;"> 
+		<span>Publication Design</span>
+	</header>
+<img src="" onclick="openModal();currentSlide(1)" class="hover-shadow" height="300px" style="object-fit:cover; float:left;">
+	
+
+</section>
+</div>
+
+	<p></p>
+	  
+<div class="container">
+	
+	<br>
+<section id="posters" class="full">
+	<header style="background:transparent;"> 
+		<span>Poster Design</span>
+	</header>
+  
+  <img src="" onclick="openModal();currentSlide(7)" class="hover-shadow" height="300px" style="object-fit:cover; float:left;">
+
+
+</section>
+</div>
+
+	<p></p>
+	  
+<div class="container">
+	
+		
+
+	<br>
+<section id="branding" class="full">
+	<header style="background:transparent;"> 
+		<span>Branding</span>
+	</header>
+  
+  <img src="" onclick="openModal();currentSlide(10)" class="hover-shadow" height="300px" style="object-fit:cover; float:left;">
+<p></p>
+	
+
+</details>
+</section>
+		</div>
+	
+	<p></p>
+
+	<div class="container">
+	
+		
+
+	<br>
+<section id="typography" class="full">
+	<header style="background:transparent;"> 
+		<span>Typography</span>
+	</header>
+  
+  <img src="" onclick="openModal();currentSlide(15)" class="hover-shadow" height="300px" style="object-fit:cover; float:left;">
+	
+<p></p>
+	
+	
+
+</details>
+</section>
+		</div>
+	
+	<p></p>
+
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="center">
+                            <img src="" style="width: 80%; margin-left:auto; margin-right:auto; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"> <h2>---</h2>
+	 <p>
+		<p>
+		</p>
+                        </div>
+                    </div>
+                   
+					<!--
+                    <div class="mySlides">
+                        <div class="center">
+                            <img src="" style="width: 80%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"></p>
+                        </div>
+                    </div>
+					-->
+			    
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
+
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+</section>
+
+</div>
+</div>
+</div>
+	<footer>
+	<i>© Erika Ornelas, 2025</i>
+	</footer>
+</body>		  
+</html>
