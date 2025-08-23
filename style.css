@@ -332,9 +332,13 @@ li {
 	justify-content: space-between;
 	border-radius: 5px;
 	display: table;
-	background-color: #584a5c;
+	background-color: #584a5c;        
+	transition: background-color 0.3s ease;
 }
 
+ li:hover {
+	 background-color:#bca4c7;
+ }
 li a {
 	font-family: "Lexend";
 	float: right;
@@ -500,6 +504,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
