@@ -79,7 +79,7 @@ body {
 
 
 .container {
-	max-width: 80%;
+	max-width: 95%;
 	max-height:500%;
 	margin: 5px auto 5px auto;
 	border: 6px ridge var(--border);
@@ -509,4 +509,5 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
