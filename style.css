@@ -270,11 +270,11 @@ sidebyside {
 
 
 h1 { 
-	font-size: 66px;
+	font-size: 70px;
 	font-weight: italic;
   font-family: "Akaya Kanadaka";
 	text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
 	margin-bottom:2%;
 	margin-top:0%;
 }
@@ -502,6 +502,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
