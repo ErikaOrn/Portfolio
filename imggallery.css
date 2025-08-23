@@ -84,7 +84,7 @@ clear: both;
 .prev,
 .next {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 50%;
     width: auto;
     padding: 16px;
