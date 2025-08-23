@@ -272,7 +272,7 @@ sidebyside {
 h1 { 
 	font-size: 66px;
 	font-weight: italic;
-  font-family: "Bagel Fat One";
+  font-family: "Akaya Kanadaka";
 	text-align: left;
   margin-left: 10%;
 	margin-bottom:2%;
@@ -502,6 +502,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
