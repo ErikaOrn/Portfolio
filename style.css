@@ -83,7 +83,6 @@ body {
 	margin: 5px auto 5px auto;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 5px;
 	justify-content: space-evenly;
 	/* container background pattern */
 background-color: #584a5c;
@@ -509,6 +508,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
