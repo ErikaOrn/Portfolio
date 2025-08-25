@@ -83,7 +83,7 @@ body {
 	margin: 5px auto 5px auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	/* container background pattern */
 background-color: #584a5c;
   /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
@@ -508,6 +508,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
