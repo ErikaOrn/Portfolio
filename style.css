@@ -142,10 +142,6 @@ header span {
 	font-size: 2.5rem;
 	text-align: center;
 	font-weight: bold;
-	text-shadow: 1px 1px #570032,
-		-1px 1px #570032,
-		1px -1px var(--accent),
-		-1px -1px var(--accent);
 	color: white;
 	justify-content: center;
 	margin-left:auto;
@@ -511,6 +507,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
