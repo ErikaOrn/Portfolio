@@ -80,7 +80,6 @@ body {
 
 .container {
 	max-width: 100%;
-	margin: 5px auto 5px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -512,6 +511,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
