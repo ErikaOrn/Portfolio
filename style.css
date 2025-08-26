@@ -254,7 +254,7 @@ footer {
 }
 
 .sidebyside img {
-  width: 23%;       /* a little smaller so 4 fit without rounding issues */
+  width: 24%;       /* a little smaller so 4 fit without rounding issues */
   max-width: 25%; /* optional: keep them from getting too big */
   height: auto;
   display: inline-block;
@@ -502,3 +502,4 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
