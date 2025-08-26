@@ -111,8 +111,7 @@ img.hover-shadow {
 .large { flex: 1 1 82%; }
 .full { flex: 1 1 100%; 
 display:inline-block; 
-	margin-left: auto;
-	margin-right:auto;
+margin: auto;
 }
 .half { flex: 1 1 49%;
 }
@@ -507,6 +506,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
