@@ -197,8 +197,6 @@ nav a {
   	font-family: "DM Serif Text";
   	display: block;
 	margin: 5px;
-	background: #bca4c7;
-	border-radius: 5px;
 	padding: 2px 7px;
 	text-decoration: none;
 	margin-left: auto;
@@ -501,6 +499,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
