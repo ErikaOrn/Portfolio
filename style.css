@@ -91,17 +91,20 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.subnavcontainer {
-	max-width: 80%;
+
+
+.gallerycontainer {
+	max-width: 95%;
 	margin: 5px auto 5px auto;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 5px;
 	justify-content: space-evenly;
-	background-color: transparent;
+	/* container background pattern */
+background-color: #584a5c;
+  /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
 }
 
-}
 /* these control the column widths */
 .small { flex: 1 1 9%; }
 .large { flex: 1 1 82%; }
@@ -496,6 +499,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
