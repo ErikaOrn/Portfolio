@@ -175,53 +175,6 @@ a:active {
   right: 0;
   display:inline-block;
   border: 1px ridge var(--border);
-}
-
-nav {
-	border: 2px ridge var(--border);
-	border-radius: 5px;
-	padding: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #bca4c7;
-}
-nav div {  
-	font-family: "Lexend";
-	text-align: center;
-	font-size: 1.25rem;
-	margin: 5px 5px 10px 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
-nav a {
-  	font-family: "DM Serif Text";
-  	display: block;
-	margin: 5px;
-	background: #bca4c7;
-	border-radius: 5px;
-	padding: 2px 7px;
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
-		color: white;
-}
-nav a:link, nav a:visited { 
- 	  font-family: "Lexend";
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-nav a:hover, nav a:focus {
-	animation: wobble .2s linear infinite alternate;
-  	font-family: "Lexend";
-	background: #bca4c7;
-	text-decoration:none;
-	color: #bca4c7;
-	margin-left: auto;
-	margin-right: auto;
-}
-/* optional button styling like in the preview */
-
 
 section {
 	background-color: #584a5c;
@@ -340,7 +293,6 @@ li a {
 	border-radius: 5px;
 	padding: 2px 2px 0px 2px;
 	display: block;
-	background-color: #584a5c;
 	transition: background-color 0.3s ease;
 }
 
@@ -501,6 +453,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
