@@ -27,11 +27,7 @@
   font-style: normal;
 }
 /*fonts and shit here dude!*/
-.bagel-fat-one-regular {
-  font-family: "Bagel Fat One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+
 .akaya-kanadaka-regular {
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 400;
@@ -83,12 +79,14 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items:center;
+  align-items:center;
 	/* container background pattern */
 background-color: #584a5c;
   /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
 }
-
+container.img {
+  display:inline-block;
+}
 img.hover-shadow {
     transition: 0.03s;
 }
@@ -110,10 +108,6 @@ img.hover-shadow {
 /* these control the column widths */
 .small { flex: 1 1 9%; }
 .large { flex: 1 1 82%; }
-.full { flex: 1 1 100%; 
-display:inline-block; 
-margin: auto;
-}
 .half { flex: 1 1 49%;
 }
 .halfs { flex: 1 1 49%;
@@ -230,15 +224,12 @@ nav a:hover, nav a:focus {
 
 
 section {
-	border: 2px ridge var(--border);
-	color: var(--blktext);
-	border-image: url('/media/examples/border-diamonds.png') 30;
-	border-radius: 5px;
 	background-color: #584a5c;
-	background-size: 200px;
 	padding: 5px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+  align-items:center;
+  justify-content:center;
+  display:flex;
 }
 
 footer {
@@ -254,16 +245,20 @@ footer {
 	text-decoration: none;
 }
 
-sidebyside {
+.sidebyside {
   display: inline-block;
-  margin-right:auto;
-  margin-left:auto;  
-  vertical-align: top;
-  width: 33.33%;
-
+  justify-content: center; 
+  gap: 10px; 
+  flex-wrap: wrap; 
+  text-align:center;
 }
 
-
+.sidebyside img {
+  width: 23%;       /* a little smaller so 4 fit without rounding issues */
+  max-width: 25%; /* optional: keep them from getting too big */
+  height: auto;
+  display: inline-block;
+}
 
 h1 { 
 	font-size: 70px;
@@ -507,23 +502,3 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
