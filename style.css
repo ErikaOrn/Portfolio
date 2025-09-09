@@ -18,15 +18,14 @@
 	}
 /* end dark mode styling */
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat848.ani), url(https://cur.cursors-4u.net/nature/nat-9/nat848.png), auto !important;} /* End https://www.cursors-4u.com */
-
 .lexend-<uniquifier> {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-/*fonts and shit here dude!*/
+
+/*fonts found here*/
 
 .akaya-kanadaka-regular {
   font-family: "Akaya Kanadaka", system-ui;
@@ -77,9 +76,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
   align-items:center;
-	/* container background pattern */
 background-color: #584a5c;
-  /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
 }
 container.img {
   display:inline-block;
@@ -100,9 +97,7 @@ img.hover-shadow {
 	flex-wrap: wrap;
 	padding: 5px;
 	justify-content: space-evenly;
-	/* container background pattern */
 background-color: #584a5c;
-  /*url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif');*/
 }
 
 /* these control the column widths */
@@ -218,7 +213,6 @@ nav a:hover, nav a:focus {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* optional button styling like in the preview */
 
 
 section {
@@ -252,7 +246,7 @@ footer {
 
 .sidebyside img {
   width: 24%;       /* a little smaller so 4 fit without rounding issues */
-  max-width: 25%; /* optional: keep them from getting too big */
+  max-width: 25%; 
   height: auto;
   display: inline-block;
 }
@@ -462,7 +456,7 @@ to {
 }
 } 
 
-.damnfuck {
+.wobble {
         height: auto;
         width: auto;
         float: right;
@@ -499,6 +493,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
