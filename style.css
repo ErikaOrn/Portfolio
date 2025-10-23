@@ -218,8 +218,9 @@ nav a:hover, nav a:focus {
 
 
 section {
+	padding:-5px;
 	background-color: #584a5c;
-	margin: auto;
+	margin: 5px;
   align-items:center;
   justify-content:center;
   display:flex;
@@ -495,6 +496,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
