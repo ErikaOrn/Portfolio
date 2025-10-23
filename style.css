@@ -71,6 +71,7 @@ body {
 
 
 .container {
+	padding:-3px;
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -493,6 +494,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
