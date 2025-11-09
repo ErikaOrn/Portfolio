@@ -3,11 +3,9 @@
 	@media /*(prefers-color-scheme: dark)*/ {
 		:root {
 			--text: white;
-			--textsize: 12rem
-			--border: #7e6290;
-			--accent: #bca4c7;
 			--bg: #ffc8dc;
 			--content: #CF86A7;
+			--berry: #5c0d49;
 		}
 		}
 	
@@ -429,5 +427,6 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
