@@ -70,13 +70,21 @@ body {
   padding: 8px;
   background-color: #dddddd;
 }
-
-.column3 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+img { max-width: 100%; 
+  height:auto;
+}
+pre { overflow-x: auto; }
+linebreak {
+  background: url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif')
 }
 
+.col-sm-3 {
+  padding:1px;
+}
+
+.row {
+  margin-bottom:5px;
+}
 
 .container {
 	margin:5px;
@@ -93,7 +101,6 @@ background-color: #CF86A7;
 	justify-content: center;
   align-items:center;
 background-color: #CF86A7;
-padding: 10px;
 }
 
 container.img {
@@ -350,11 +357,7 @@ details[open] summary {
 
 
 /* prevents overflow on smaller screens */
-img { max-width: 100%; }
-pre { overflow-x: auto; }
-linebreak {
-  background: url('https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif')
-}
+
 
 .easeinout{
 text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
