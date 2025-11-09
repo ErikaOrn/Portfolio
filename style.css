@@ -4,26 +4,24 @@
 		:root {
 			--text: white;
 			--textsize: 12rem
-			/*--txtblk: black;*/
 			--border: #7e6290;
 			--accent: #bca4c7;
-			--bg: rgb(92, 13, 73,.8);
-			--gradientBottom: rgb(128, 27, 114);
-			--gradientTop: #bca4c7;
+			--bg: #ffc8dc;
+			--content: #CF86A7;
 		}
 		}
-		header {
-			background: url('***dark mode banner image***');
-		}
-	}
+	
+
+/* end dark mode styling */
 
 @media screen and (max-width: 800px) {
   .left, .main, .right {
     width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
-/* end dark mode styling */
 
+
+/*fonts found here*/
 .lexend-<uniquifier> {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
@@ -31,13 +29,12 @@
   font-style: normal;
 }
 
-/*fonts found here*/
-
 .akaya-kanadaka-regular {
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 .dm-serif-text-regular {
   font-family: "DM Serif Text", serif;
   font-weight: 400;
@@ -50,23 +47,28 @@
   font-style: italic;
 }
 
-
-
-
 /*fonts end here lol*/
+
 * { 
 	box-sizing: border-box;
 	justify-content: space-evenly;
 }
 
 body {
-	padding:2px;
+	padding: 0px 2px 2px 2px;
 	font-family: 'MS PGothic', sans-serif;
 	color: var(--text);
 
 	/* page background pattern */
-	background-color: #3b3841;
+	background-image:linear-gradient(0deg, #ffc8dc,#f9e1ea);
 	justify-content: space-evenly;
+}
+
+
+.a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 .column3 {
@@ -77,15 +79,23 @@ body {
 
 
 .container {
-	padding:-5px;
 	margin:5px;
 	max-width: 130%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
   align-items:center;
-background-color: #584a5c;
+background-color: #CF86A7;
 }
+.container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items:center;
+background-color: #CF86A7;
+padding: 10px;
+}
+
 container.img {
   display:inline-block;
 }
@@ -105,7 +115,7 @@ img.hover-shadow {
 	flex-wrap: wrap;
 	padding: 5px;
 	justify-content: space-evenly;
-background-color: #584a5c;
+background-color:var(--content);
 }
 
 /* these control the column widths */
@@ -129,7 +139,6 @@ header {
 	margin: 5px 5px 5px;
 	width: 100%;
 	height: auto; /* change banner height here*/
-	border: 2px ridge var(--border);
 	border-radius: 5px;
 	position: relative;
 	margin-left:auto;
@@ -168,64 +177,10 @@ a:active {
   color: white;
 }
 
-.nav{
-  font-size:25px;
-  position:fixed;
-	width:auto;
-	height:auto;
-	border-radius:5px;
-  text-align: right;
-  right: 0;
-  display:inline-block;
-  border: 1px ridge var(--border);
-}
-
-nav {
-	border: 2px ridge var(--border);
-	border-radius: 5px;
-	padding: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #bca4c7;
-}
-nav div {  
-	font-family: "Lexend";
-	text-align: center;
-	font-size: 1.25rem;
-	margin: 5px 5px 10px 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
-nav a {
-  	font-family: "DM Serif Text";
-  	display: block;
-	margin: 5px;
-	padding: 2px 7px;
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
-		color: white;
-}
-nav a:link, nav a:visited { 
- 	  font-family: "Lexend";
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-nav a:hover, nav a:focus {
-	animation: wobble .2s linear infinite alternate;
-  	font-family: "Lexend";
-	background: #bca4c7;
-	text-decoration:none;
-	color: #bca4c7;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 
 section {
 	padding:-5px;
-	background-color: #584a5c;
+	background-color: var(--content);
 	margin: 5px;
   align-items:center;
   justify-content:center;
@@ -236,7 +191,7 @@ footer {
 	margin-top:1.25%;
 	text-align: center;
 	font-size: 20px;
-	background-color:#584a5c;
+	background-color: var(--content);
 	width:100%;
   	justify-content: center;
   	align-items: center;
@@ -261,23 +216,26 @@ footer {
 }
 
 h1 { 
-	font-size: 70px;
+	font-size: 5rem;
 	font-weight: italic;
   font-family: "Akaya Kanadaka";
 	text-align: left;
   margin-left: 5%;
 	margin-bottom:2%;
 	margin-top:0%;
+	color:#5c0d49;
 }
 h2 { 
-	font-size: 1.4rem;
+	font-size: 2.2rem;
 	font-family: "Lexend";
 	font-weight: normal;
 	text-align: center;
+	margin-bottom:1rem;
 }
 h3 { 
 	font-family: "Lexend";
-	font-size: 1.1rem;
+	font-size: 1.3rem;
+	margin-bottom:1rem;
 }
 h4 { 
 	font-family: "Lexend";
@@ -290,24 +248,7 @@ h5 {
 	font-size:1.5rem;
 	margin: 10px;
 	font-weight: bold;
-	text-shadow: 1px 1px #570032,
-		-1px 1px #570032,
-		1px -1px var(--accent),
-		-1px -1px var(--accent);
 		text-align: center;
-	color: #c90c7a;
-}
-
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
- 	border: 2px ridge var(--border);
-	border-radius: 5px;
-  width: 50%;
 }
 
 ul {
@@ -315,38 +256,35 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+	margin-top:0px;
 }
 
 li {
 	font-family: "Lexend";
+	font-size: 1.5rem;
 	position:sticky;
-	margin-right:3px;
 	float: right;
 	justify-content: space-between;
-	border-radius: 5px;
+	border-radius: 7px;
 	display: table;
-	background-color: #584a5c;        
+	background-color: transparent;        
 	transition: background-color 0.3s ease;
 }
 
- li:hover {
-	 background-color:#bca4c7;
- }
 li a {
 	font-family: "Lexend";
 	float: right;
-	margin-left:auto;
-	margin-right:auto;
-	margin: 5px;
-	border-radius: 5px;
-	padding: 2px 2px 0px 2px;
+	margin-left:0px;
+	margin-right:10px;
+	border-radius: 15px;
+	padding: 7px;
 	display: block;
-	background-color: #584a5c;
+	background-color: #5c0d49;
 	transition: background-color 0.3s ease;
 }
 
 li a:hover {
-	 background-color:#bca4c7;
+	 background-color:#CF86A7;
 }
 
 li a:visited {
@@ -355,11 +293,6 @@ li a:visited {
 
 
 
-.a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
 
 
 details {
@@ -415,7 +348,7 @@ details[open] summary {
 	color:#7c5b85;
 }
 
-}
+
 /* prevents overflow on smaller screens */
 img { max-width: 100%; }
 pre { overflow-x: auto; }
@@ -465,32 +398,6 @@ to {
 }
 } 
 
-.wobble {
-        height: auto;
-        width: auto;
-        float: right;
-        margin-bottom: 10px;
-        animation: wobble .2s linear infinite alternate;
-}
-
-@keyframes wobble {
-        0% { transform: rotate(-1.2deg); }
-        100% { transform: rotate(1.2deg); }
-}
-
-
-#teeter {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  animation: teeter10 0.3s infinite alternate; 
-}
-
-@keyframes teeter10 { 
-  0%  {transform: rotate(1.5deg);}
-  100% {transform: rotate(-1.5deg);}
-}
-}
-
 #grad1 {
   height: 200px;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
@@ -502,17 +409,3 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
