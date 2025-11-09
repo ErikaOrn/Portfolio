@@ -16,6 +16,12 @@
 			background: url('***dark mode banner image***');
 		}
 	}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 /* end dark mode styling */
 
 .lexend-<uniquifier> {
@@ -496,6 +502,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
