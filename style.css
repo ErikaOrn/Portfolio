@@ -235,6 +235,13 @@ h1 {
 }
 h1 i {
 	color:#5c0d49;
+	font-size: 5rem;
+	font-weight: italic;
+  font-family: "Akaya Kanadaka";
+	text-align: left;
+  margin-left: 5%;
+	margin-bottom:2%;
+	margin-top:0%;
 }
 
 h2 { 
@@ -422,4 +429,5 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
