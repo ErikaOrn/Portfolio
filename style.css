@@ -249,7 +249,7 @@ footer {
 
 .sidebyside img {
   width: 24%;       /* a little smaller so 4 fit without rounding issues */
-  max-width: 25%; 
+  max-width: 100%; 
   height: auto;
   display: inline-block;
 }
@@ -496,6 +496,7 @@ a:hover, a:focus {
 a:visited {
 	color: var(--accent);
 }
+
 
 
 
