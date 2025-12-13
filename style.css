@@ -10,9 +10,6 @@
 
 @media only screen and (min-width: 320px) {
 	/* smartphones, iPhone, portrait 480x320 phones */
-	body {
-		background-color: red;
-	}
 	h1 {
 		font-size: 15vw;
 	}
@@ -58,9 +55,6 @@
 
 @media only screen and (min-width: 641px) {
 	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-	body {
-		background-color: green;
-	}
 	h1 {
 		font-size: 10vw;
 	}
@@ -105,9 +99,6 @@
 }
 @media only screen and (min-width: 961px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
-	body {
-		background-color: blue;
-	}
 	h1 {
 		font-size: 8vw;
 	}
@@ -152,9 +143,6 @@
 }
 @media only screen and (min-width: 1025px) {
 	/* big landscape tablets, laptops, and desktops */
-	body {
-		background-color: yellow;
-	}
 	h1 {
 		font-size: 8vw;
 	}
@@ -200,9 +188,6 @@
 
 @media only screen and (min-width: 1281px) {
 	/* hi-res laptops and desktops */
-	body {
-		background-color: limegreen;
-	}
 	h1 {
 		font-size: 6.5vw;
 	}
@@ -612,4 +597,3 @@ a:focus {
 a:visited {
 	color: var(--accent);
 }
-
