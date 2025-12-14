@@ -12,316 +12,184 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bagel+Fat+One&family=DM+Serif+Text:ital@0;1&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<script src="script.js"></script>
 </head>
  
-<script>
-function openModal() {
-    document.getElementById("myModal").style.display = "block";
-}
-
-function closeModal() {
-    document.getElementById("myModal").style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-var i;
-var slides = document.getElementsByClassName("mySlides");
-var dots = document.getElementsByClassName("demo");
-var captionText = document.getElementById("caption");
-if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
-slides[i].style.display = "none";
-}
-for (i = 0; i < dots.length; i++) {
-dots[i].className = dots[i].className.replace(" active", "");
-}
-slides[slideIndex-1].style.display = "block";
-dots[slideIndex-1].className += " active";
-captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
    
 <body id="top">
+		<ul>
+			<li><a href="https://www.linkedin.com/in/erika-ornelas-a9613b298/">LinkedIn</a></li>
+			<li><a href="/Contact">Contact</a></li>
+			<li><a href="/About">About</a></li>
+			<li><a href="/">Home</a></li>
+		</ul>
 
- 
+		<h1 style="left: 5%"><i>Erika Ornelas</i></h1>
 
-  <ul>
-  <li><a href="https://www.linkedin.com/in/erika-ornelas-a9613b298/">LinkedIn</a></li>
-  <li><a href="mailto:erikaornelas1201@gmail.com">Contact</a></li>
-  <li><a href="/About">About</a></li>
-  <li><a href="/">Home</a></li>
-</ul>
-	
-	 <h1 style="left:5%;"><i>Erika Ornelas</i></h1>
-
-	
 	
 <div style="display:flex;">
   <ul style="display:flex;align-items:center; ">
-  <li><a href="#typography">Typography</a></li>
+  <li><a href="#posters">Posters</a></li>
   <li><a href="#branding">Branding</a></li>
-  <li><a href="#posters">Poster Design</a></li>
-  <li><a href="#publication">Publication Design</a></li>
 </ul>
 </div>
 
 	<header style="background:transparent;"> 
-		<span>Please click on each image for more info!</span>
+		<span style="color: var(--berry)">Please click on each image for more info!</span>
 	</header>
 	  
-<div class="container">
-	
-
-	
-<section id="publication" class="container-fluid">
-	
-	<header style="background:transparent;"> 
-		<span>Publication Design</span>
-	</header>
-<img src="https://files.catbox.moe/lpi14k.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/1h3enc.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/oyolz0.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/yocv3v.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/r9hrw2.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/okn633.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-
-</section>
-</div>
 
 	<p></p>
 	  
-<div class="container">
 	
 	<br>
-<section id="posters" class="container-fluid">
-	<header style="background:transparent;"> 
-		<span>Poster Design</span>
-	</header>
+<div id="posters" class="container-fluid-body">
+<header> <span> <h1 style="color:white;">Posters</h1></span></header>
+	
+		<img src="https://files.catbox.moe/x3rq3n.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+  
+  <img src="https://files.catbox.moe/vcreqd.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+	
+	<img src="https://raw.githubusercontent.com/ErikaOrn/Portfolio/refs/heads/main/images/design/krema%20poster-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+	
+  <img src="https://files.catbox.moe/19rjem.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+  
+  <img src="https://files.catbox.moe/bzovtw.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+  
+  <img src="https://files.catbox.moe/tqugds.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="25%" style="object-fit:cover; float:left;">
+
   <br>
-  <img src="https://files.catbox.moe/x3rq3n.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/j1pnr6.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/vcreqd.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
+ 
 
 
-</section>
 </div>
 
 	<p></p>
 	  
-<div class="container">
+<div id="branding" class="container-fluid-body">
+	<h1 style="color:white;">Branding</h1>
+	<header>
+		<h2>CoHFAC Kickback 2025</h2>
+		</header>	
+  <img src="https://files.catbox.moe/chovay.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
+  
+  <img src="https://files.catbox.moe/io9v9y.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" width="30%" style="object-fit:cover; float:left;">
 	
-		
+  
+  <img src="https://files.catbox.moe/tynxvh.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="50%" style="object-fit:cover; float:left;">
+	
+	<iframe title="Kickback Presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vR0nj8XT6Cs5YfnFi7_2OdAuyBB8dFZ8lQtlV167hunn2tvsFCyPKti9nlf9ESVoP07Q2e82aoTctRd/pubembed?start=true&loop=false&delayms=15000" width="500rem" height="450rem" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-	<br>
-<section id="branding" class="container-fluid">
-	<header style="background:transparent;"> 
-		<span>Branding</span>
-	</header>
-	<br>
+	
+	<header>
+		<h2>CoHFAC Kickback 2026</h2>
+		</header>
+	
+		<img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/save%20the%20date%20take%209.png?raw=true" onclick="openModal();currentSlide(7)" class="hover-shadow" width="33%" style="object-fit:cover; float:left;">
+	
+  <img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/pattern%20bg.png?raw=true" onclick="openModal();currentSlide(8)" class="hover-shadow" width="33%" style="object-fit:cover; float:left;">
   
-  <img src="https://files.catbox.moe/6wpk7d.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
+  <img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/digital%20signage%201.png?raw=true" onclick="openModal();currentSlide(9)" class="hover-shadow" width="33%" style="object-fit:cover; float:left;">
 	
-  <img src="https://files.catbox.moe/chovay.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
+<br>
+	<iframe title="kickback twentysix slides" src="https://docs.google.com/presentation/d/e/2PACX-1vRt_ibVNmfjB2XyZC6F_rPby12sMgIZWRi8afoPUXjHylC23ZcIo9k73jef--2DxaxUi1mPvQ5JNlxt/pubembed?start=true&loop=true&delayms=3000" width="500rem" height="450rem" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   
-  <img src="https://files.catbox.moe/io9v9y.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/ue8wu0.png" onclick="openModal();currentSlide(13)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/tynxvh.png" onclick="openModal();currentSlide(14)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-<p></p>
-	<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR0nj8XT6Cs5YfnFi7_2OdAuyBB8dFZ8lQtlV167hunn2tvsFCyPKti9nlf9ESVoP07Q2e82aoTctRd/pubembed?start=true&loop=false&delayms=15000" frameborder="0" width="600" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-	
-	
-
-</section>
-		</div>
-</details>
+</div>
 	
 	<p></p>
 
-	<div class="container">
-	
-		
-
-	<br>
-<section id="typography" class="container-fluid">
-	<header style="background:transparent;"> 
-		<span>Typography</span>
-	</header>
-  
-  <img src="https://files.catbox.moe/ai2igw.png" onclick="openModal();currentSlide(15)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-	
-  <img src="https://files.catbox.moe/19rjem.png" onclick="openModal();currentSlide(16)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/bzovtw.png" onclick="openModal();currentSlide(17)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-  
-  <img src="https://files.catbox.moe/tqugds.png" onclick="openModal();currentSlide(19)" class="hover-shadow" width="20%" style="object-fit:cover; float:left;">
-<p></p>
-	
-	
-
-</details>
-</section>
-		</div>
-	
-	<p></p>
-
+	<div class=container-fluid style=background-color:transparent;>	
+  <li><a href="#top">Jump to Top</a></li>
+</div>
+	<div class=container-fluid>
+	<i>© Erika Ornelas, 2025</i>
+	</div>
 
             <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <span class="close cursor" onclick="closeModal()" >&times;</span>
                 <div class="modal-content">
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/lpi14k.png" style="width: 40%; margin-left:auto; margin-right:auto; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"> <h2>Wage the War on Poverty</h2>
-	 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/1h3enc.png" style="width: 40%; position: relative; margin-left:auto; margin-right:auto;">
-                            <p style="position: relative; bottom: 80px ;"> <h2>Wage the War on Poverty</h2>
-		 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/oyolz0.png" style="width: 40%; position: relative; margin-left:auto; margin-right:auto;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Wage the War on Poverty</h2>
-	 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/yocv3v.png" style="width: 40%; position: relative; margin-left:auto; margin-right:auto;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Wage the War on Poverty</h2>
-	 	 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/r9hrw2.png" style="width: 40%; position: relative; margin-left:auto; margin-right:auto;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Wage the War on Poverty</h2>
-		 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/okn633.png" style="width: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Wage the War on Poverty</h2>
-	 <p />This design was a project for my intro to communication design class, we were given a selection of stock images to choose from and the general parameters that the text must be black on white, and have two columns.
-	Additionally, we were required to make a cover page and I had to find a way to satisfy both the need for a cover image and legibility of the text.
-	<br>When I first began this project I dreaded the task of having to balance content and graphics, but I think this assignment helped me learn the balance between the two.
-		<p>
-			On a more self-indulgent note, i <u>love</u> the accent font i used for the title and subheadings.
-		</p>
-                            </p>
-                        </div>
-                    </div>
-
-			
+		
                     <div class="mySlides">
                         <div class="container-fluid">
                             <img src="https://files.catbox.moe/x3rq3n.png" style="width: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Krema Satellite Exhibiton</h2></p>
-				In the spring semester of my Junior year Lewis University was able to have their first satellite art exhibition at a local coffeehouse named Krema, although I had no art to share at the time, I wanted to contribute as the owner of Krema was my childhood neighbor, and I wanted to give back to both her, Krema, and to Lewis. This version of the poster is the one that was sent in promotional posters across the university.
+                            <p style="position: relative; bottom: 80px;"><h2>Krema Satellite Exhibiton</h2></p>
+						<h3>In the spring semester of my Junior year Lewis University was able to have their first satellite art exhibition at a local coffeehouse named Krema, although I had no art to share at the time, I wanted to contribute as the owner of Krema was my childhood neighbor, and I wanted to give back to both her, Krema, and to Lewis. This version of the poster is the one that was sent in promotional posters across the university.</h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
+
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/j1pnr6.png" style="width: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Krema Satellite Exhibiton</h2></p>
-				In the spring semester of my Junior year Lewis University was able to have their first satellite art exhibition at a local coffeehouse named Krema, although I had no art to share at the time, I wanted to contribute as the owner of Krema was my childhood neighbor, and I wanted to give back to both her, Krema, and to Lewis. This version of the poster is the one that was put up in the cafe itself and seen by patrons.
-			</div>
-		    </div>
-                    <div class="mySlides">
-                        <div class="container-fluid">
-                            <img src="https://files.catbox.moe/vcreqd.png" style="height: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;">
-			    </p>
+                            <img src="https://files.catbox.moe/vcreqd.png" style="width: 40%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>WWII Flight Raffle</h2></p>
+				<h3>This was part of a project in my communication design course, we were assigned to make two posters for the same fictional event, one with a symmetrical design adn the other, assymetrical. This was what I came up with for the symmetrical design, and of the two it's hands-down my favorite.</h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
 			</div>
                     </div>	
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/6wpk7d.png" style="height: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p>
-				This is an image i made for the Lewis University College of Humanities, Fine Arts, and Communications Instagram story to promote our second annual fundraiser: CoHFAC Kickback! I used a mix of new assets made by both myself and my peers along with assets that were carried over from the previous year's branding.
+                            <img src="https://raw.githubusercontent.com/ErikaOrn/Portfolio/refs/heads/main/images/design/krema%20poster-02.png" style="width: 40%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2>
+				<h3>This is an image i made for the Lewis University College of Humanities, Fine Arts, and Communications Instagram story to promote our second annual fundraiser: CoHFAC Kickback! I used a mix of new assets made by both myself and my peers along with assets that were carried over from the previous year's branding.</h3>
+							
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/chovay.png" style="height: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p> This is an image i made to be printed out for the aforementioned CoHFAC Kickback fundraiser event. This poster was promoting an activity we had with our creative writing students to be able to make a poem on the fly with a prompt or even just a word! I used the Instagram story image as a base for this one, however it should be noted that the bottom third of the image seen here was cropped out of the final poster.
-                        </div>
+                            <img src="https://files.catbox.moe/chovay.png" style="width: 30%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback: Poetry on the Fly</h2></p>
+				<h3>This is an image i made to be printed out for the second annual CoHFAC Kickback fundraiser event. This poster was promoting an activity we held with our creative writing students, where they wrote poems on the fly with just a prompt or a word! <br>*it should be noted that the bottom third of the image seen here was cropped out of the final poster.</h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
+			</div>
                     </div>
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/io9v9y.jpg" style="width: 40%; position: relative;">
+                            <img src="https://files.catbox.moe/io9v9y.jpg" style="width: 60%; position: relative;">
                             <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p> This piece was made to be an instagram post on various Lewis University instagram pages promoting CoHFAC Kickback.
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/ue8wu0.png" style="width: 100%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p>This is the promotional card for the second annual CoHFAC Kickback.
+                            <img src="https://files.catbox.moe/tynxvh.png" style="width: 70%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p>
+						<h3>This piece was made as Digital Signage for the various monitors across the Lewis University campus to promote CoHFAC Kickback.</h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/tynxvh.png" style="width: 100%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p>This piece was made as Digital Signage for the various monitors across the Lewis University campus to promote CoHFAC Kickback.
+                            <img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/save%20the%20date%20take%209.png?raw=true" style="width: 70%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback Save The Date: 2026</h2></p>
+						
+						<h3>The first of many pieces for CoHFAC Kickback 2026. This one is the my final design for the save the date post card. Seeing as it was the first piece made for the event that year, it took <u>11 attempts.</u></h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
                         <div class="container-fluid">
-                            <img src="https://files.catbox.moe/ai2igw.png" style="width: 78%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>One Flew Over the Cuckoo's Nest Project</h2></p>
-				This was an early project for my typography class from my Sophomore year. We were asked to choose a book and design a brand new cover, thus, I chose One Flew Over the Cuckoo's net as it was my favorite book I read in High School and decided it needed it's flowers.
+                            <img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/pattern%20bg.png?raw=true" style="width: 70%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>Kickback 2026 Pattern</h2></p>
+						<h3>This is just a large spread of the main background pattern </h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="container-fluid">
+                            <img src="https://github.com/ErikaOrn/Portfolio/blob/main/images/design/digital%20signage%201.png?raw=true" style="width: 70%; position: relative;">
+                            <p style="position: relative; bottom: 80px ;"><h2>CoHFAC Kickback</h2></p>
+						<h3>This piece was made as Digital Signage for the various monitors across the Lewis University campus to promote the third annual CoHFAC Kickback.</h3>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
@@ -329,6 +197,8 @@ captionText.innerHTML = dots[slideIndex-1].alt;
                             <img src="https://files.catbox.moe/19rjem.png" style="width: 40%; position: relative;">
                             <p style="position: relative; bottom: 80px ;"><h2>Rage Against</h2></p>
 				This project was born out of a prompt to create something using Swiss Design sensibilities, and seeing as my professor at the time was obsessed with AI, my stubborn self decided to make this whole project revolve around my refusal to use AI in any of my schoolwork.
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
                     </div>
                     <div class="mySlides">
@@ -336,16 +206,23 @@ captionText.innerHTML = dots[slideIndex-1].alt;
                             <img src="https://files.catbox.moe/bzovtw.png" style="width: 40%; position: relative;">
                             <p style="position: relative; bottom: 80px ;"><h2>Jack.</h2></p>
 							This project was meant to hone our skills in making a type based logo, so i used a fake brand called Jack., which I made way back as a kid in a skateboarding game to be... well a skateboarding brand.
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
                         </div>
 					</div>
                     <div class="mySlides">
                         <div class="container-fluid">
                             <img src="https://files.catbox.moe/tqugds.png" style="width: 40%; position: relative;">
-                            <p style="position: relative; bottom: 80px ;"><h2>Romeoville Night Market</h2></p>
+                            <p style="position: relative; bottom: 80px;">
+							<h2>Romeoville Night Market</h2>
+							</p>
 							This poster is for a fictional night market for the very real town that I live in. 
 <br>
-							I wanted the vibes to be cozy, but still fresh and breathable, and I think the way I made the text bend and contour helps get that across.
-                        </div>
+							 </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10095</a>
+
                     </div>
 					<!--
                     <div class="mySlides">
@@ -356,20 +233,6 @@ captionText.innerHTML = dots[slideIndex-1].alt;
                     </div>
 					-->
 			    
-<a class="prev" onclick="plusSlides(-1)">&#10094</a>
-<a class="next" onclick="plusSlides(1)">&#10095</a>
 
-<div class="caption-container">
-<p id="caption"></p>
-</div>
-
-</div>
-</div>
-	<div class=container-fluid style=background-color:transparent;>	
-  <li><a href="#top">Jump to Top</a></li>
-</div>
-	<footer>
-	<i>© Erika Ornelas, 2025</i>
-	</footer>
 </body>		  
 </html>
