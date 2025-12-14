@@ -358,8 +358,7 @@ img.hover-shadow {
 }
 
 header {
-	background: url("https://sadhost.neocities.org/images/tiles/anistars.gif");
-	background-size: 200px;
+	background-size: 100px;
 	background-position: center;
 	text-align: center;
 	margin: 5px 5px 5px;
@@ -378,6 +377,12 @@ header span {
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+header h1 {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }
 /* unvisited link */
 a:link {
@@ -493,53 +498,59 @@ details {
 	float: right;
 	margin-left: auto;
 	margin-right: auto;
-	margin: 5px;
 	border-radius: 5px;
-	padding: 2px 2px 0 2px;
 	display: block;
-	background-color: #bca4c7;
+	background-color: transparent;
+	outline-color: #891c4d;
+	overflow:auto;
 }
 details:hover {
-	color: #7c5b85;
+	color:#891c4d;
+	text-decoration: underline;
 }
 
 summary {
-	background-color: #bca4c7;
+	background: url("Untitled-3/bgif014.gif");
+	background-size: 100px;
+	color:#891c4d;
+	border: solid 2px #cc7099;
 	width: 100%;
 	text-align: left;
 	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
-	padding: 2px 2px 0 2px;
+	padding: 5px 5px 5px 5px;
 	font-weight: bold;
 }
 
 details[open] {
-	background-color: #bca4c7;
+	width:100%;
+	background-color: #cc7099;
 	text-align: left;
-	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
-	padding: 2px 2px 0 2px;
 	font-weight: bold;
-	color: #7c5b85;
+	display: flex !important;
+	flex-wrap: wrap !important;
+	object-fit:cover;
+	justify-content:center !important;
+	align-items: center !important;
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
 
 details[open] summary {
-	background-color: #bca4c7;
 	text-align: left;
-	margin: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
-	padding: 2px 2px 0 2px;
 	font-weight: bold;
-	color: #7c5b85;
 }
-
-/* prevents overflow on smaller screens */
 
 .easeinout {
 	text-shadow:
