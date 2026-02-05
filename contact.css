@@ -31,7 +31,7 @@
 	color:white;
 	border:none;
 	border-radius:15px;
-	background: linear-gradient(270deg, #cf86a7, pink);
+	background: linear-gradient(270deg, #cf86a7, #E096B8);
 }
 
 .contact-left button:hover{
