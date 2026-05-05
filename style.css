@@ -2,8 +2,11 @@
 @media screen/*(prefers-color-scheme: dark) */ {
 	:root {
 		--text: white;
-		--bg: #ffc8dc;
-		--content: #cf86a7;
+		--palerose: #f7e1ed;
+		--palepink: #f9c7dc;
+		--blush: #f0a5c8;
+		--dustypink: #d086a7;
+		--mauve: #b1678c;
 		--berry: #5c0d49;
 	}
 }
@@ -19,21 +22,13 @@
 	h3 {
 		font-size: 4vw;
 	}
-	li, .menu-item{
-		font-family: "Lexend";
-		font-size: 4vw;
-		position: sticky;
-		justify-content: space-between;
-		border-radius: 3vw;
-		background-color: transparent;
-		transition: background-color 0.3s ease;
-	}
 	
+	.menu-item {
+	  margin:0;
+	}
 
 	li a, .menu-item a {
 		font-family: "Lexend";
-		margin-left: 0;
-		margin-right: 1vw;
 		border-radius: 3vw;
 		padding: 1.1vw;
 		background-color: var(--berry);
@@ -41,7 +36,7 @@
 	}
 
 	li a:hover {
-		background-color: #cf86a7;
+		background-color: var(--dustypink);
 	}
 
 	li a:visited {
@@ -60,7 +55,7 @@
 	h3 {
 		font-size: 2vw;
 	}
-	li, .menu-item {
+	li {
 		font-family: "Lexend";
 		font-size: 3vw;
 		position: sticky;
@@ -74,19 +69,68 @@
 		font-family: "Lexend";
 		margin-left: 0;
 		margin-right: 1vw;
+		margin-top: 1vw;
 		border-radius: 3vw;
 		padding: 1.1vw;
-		background-color: #5c0d49;
+		background-color: var(--berry);
 		transition: background-color 0.3s ease;
 	}
 
 	li a:hover {
-		background-color: #cf86a7;
+		background-color: var(--dustypink);
 	}
 
 	li a:visited {
 		color: white;
 	}
+}
+
+
+.menu-item {
+		font-family: "Lexend";
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		font-size: 2.5vw;
+		position: sticky;
+		justify-content: space-between;
+		border-radius: 0;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+}
+
+
+
+.menu-item > a:hover {
+    background-color: var(--dustypink);
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--berry);
+    border-radius: 1vw;
+    padding: 0;
+    min-width: auto;
+}
+
+.drop-menu li {
+    float: none;
+  margin:0;
+  padding:0;
+}
+
+.drop-menu li a {
+    display: block;
+  margin:0.5vw;
+  padding:0.5vw;
+  border-radius:0;
+}
+
+.menu-item:hover .drop-menu {
+    display: block;
 }
 @media only screen and (min-width: 961px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -113,15 +157,16 @@
 		font-family: "Lexend";
 		margin-left: 0;
 		margin-right: 1vw;
+		margin-top: 1vw;
 		border-radius: 3vw;
 		padding: 1.1vw;
 		display: block;
-		background-color: #5c0d49;
+		background-color: var(--berry);
 		transition: background-color 0.3s ease;
 	}
 
-	li a:hover, .menu-item a {
-		background-color: #cf86a7;
+	li a:hover {
+		background-color: var(--dustypink);
 	}
 
 	li a:visited {
@@ -139,7 +184,7 @@
 	h3 {
 		font-size: 2vw;
 	}
-	li, .menu-item {
+	li {
 		font-family: "Lexend";
 		font-size: 2.5vw;
 		position: sticky;
@@ -153,14 +198,15 @@
 		font-family: "Lexend";
 		margin-left: 0;
 		margin-right: 1vw;
+		margin-top: 1vw;
 		border-radius: 3vw;
 		padding: 1vw;
-		background-color: #5c0d49;
+		background-color: var(berry);
 		transition: background-color 0.3s ease;
 	}
 
 	li a:hover {
-		background-color: #cf86a7;
+		background-color: var(--dustypink);
 	}
 
 	li a:visited {
@@ -180,7 +226,7 @@
 	h3 {
 		font-size: 1.5vw;
 	}
-	li, .menu-item {
+	li {
 		font-family: "Lexend";
 		font-size: 1.5vw;
 		position: sticky;
@@ -192,16 +238,18 @@
 
 	li a, .menu-item a {
 		font-family: "Lexend";
+		font-size: 1.5vw;
 		margin-left: 0;
 		margin-right: 1vw;
+		margin-top: 1vw;
 		border-radius: 3vw;
 		padding: 0.75vw;
-		background-color: #5c0d49;
+		background-color: var(--berry);
 		transition: background-color 0.3s ease;
 	}
 
 	li a:hover {
-		background-color: #cf86a7;
+		background-color: var(--dustypink);
 	}
 
 	li a:visited {
@@ -246,9 +294,7 @@ body {
 	padding: 0 2px 2px 2px;
 	font-family: "MS PGothic", sans-serif;
 	color: var(--text);
-
-	/* page background pattern */
-	background-image: linear-gradient(0deg, #ffc8dc, #f9e1ea);
+	background-image: linear-gradient(0deg, var(--palepink), var(--palerose));
 	justify-content: space-evenly;
 }
 
@@ -283,14 +329,14 @@ linebreak {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-color: #cf86a7;
+	background-color: var(--dustypink);
 }
 .container-fluid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-color: #cf86a7;
+	background-color: var(--dustypink);
   position:relative;
   z-index:1;
 }
@@ -314,7 +360,7 @@ img.hover-shadow {
 	flex-wrap: wrap;
 	padding: 5px;
 	justify-content: space-evenly;
-	background-color: var(--content);
+	background-color: var(--dustypink);
 }
 
 /* these control the column widths */
@@ -389,7 +435,7 @@ a:active {
 
 section {
 	padding: -5px;
-	background-color: var(--content);
+	background-color: var(--dustypink);
 	margin: 5px;
 	align-items: center;
 	justify-content: center;
@@ -400,7 +446,7 @@ footer {
 	margin-top: 1.25%;
 	text-align: center;
 	font-size: 20px;
-	background-color: var(--content);
+	background-color: var(--dustypink);
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -425,17 +471,16 @@ a {
 }
 
 h1 {
-	color: #5c0d49;
+	color: var(--berry);
 	font-weight: italic;
 	font-family: "Akaya Kanadaka";
 	text-align: left;
 	margin-left: 5%;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 	margin-top: 0%;
-	overflow:visible;
 }
 h1 i {
-	color: #5c0d49;
+	color: var(--berry);
 }
 
 h2 {
@@ -476,13 +521,29 @@ ul {
     align-items: center;
     position:relative;
 }
-ul > li {
+ul > li a{
     list-style: none;
     position: relative;
     float: none;
     display: block;
 }
 
+
+.easeinout {
+	text-shadow:
+		-1px 0 #000,
+		0 1px #000,
+		1px 0 #000,
+		0 -1px #000,
+		0 0;
+	font-style: italic;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	-webkit-animation: pop 1.6s ease-in-out infinite alternate;
+	animation: pop 1.6s ease-in-out infinite alternate;
+	-moz-animation: pop 1.6s ease-in-out infinite alternate;
+}
 
 @keyframes pop {
 	from {
@@ -523,45 +584,4 @@ a:focus {
 }
 a:visited {
 	color: var(--accent);
-}
-
-li > .menu-item {
-	background-color: red;
-}
-
-.menu-item {
-    position: relative;		
-}
-
-.menu-item > a {
-    display: block;		
-	margin-right: 1vw;
-    background-color: #5c0d49;
-    border-radius: 3vw;
-}
-
-.menu-item > a:hover {
-    background-color: #cf86a7;
-}
-
-.drop-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #5c0d49;
-    border-radius: 1vw;
-    padding: 0;
-    min-width: auto;
-}
-
-
-.drop-menu li a {
-    display: block;
-  margin:0.5vw;
-  padding:0.5vw;
-  border-radius:0;
-}
-
-.menu-item:hover .drop-menu {
-    display: block;
 }
