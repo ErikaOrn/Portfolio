@@ -1,0 +1,625 @@
+/* start dark mode styling */
+@media screen/*(prefers-color-scheme: dark) */ {
+	:root {
+		--text: white;
+		--palerose: #f7e1ed;
+		--palepink: #f9c7dc;
+		--blush: #f0a5c8;
+		--dustypink: #d086a7;
+		--mauve: #b1678c;
+		--berry: #5c0d49;
+	}
+}
+
+@media only screen and (min-width: 320px) {
+	/* smartphones, iPhone, portrait 480x320 phones */
+	h1 {
+		font-size: 15vw;
+	}
+	h2 {
+		font-size: 5.3vw;
+	}
+	h3 {
+		font-size: 4vw;
+	}
+
+	.menu-item {
+		margin: 0;
+	}
+
+	li a,
+	.menu-item a {
+		font-family: "Lexend";
+		border-radius: 3vw;
+		padding: 1.1vw;
+		background-color: var(--berry);
+		transition: background-color 0.3s ease;
+	}
+
+	li a:hover {
+		background-color: var(--dustypink);
+	}
+
+	li a:visited {
+		color: white;
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	h1 {
+		font-size: 10vw;
+	}
+	h2 {
+		font-size: 4vw;
+	}
+	h3 {
+		font-size: 2vw;
+	}
+	li {
+		font-family: "Lexend";
+		font-size: 3vw;
+		position: sticky;
+		justify-content: space-between;
+		border-radius: 3vw;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+	}
+
+	li a,
+	.menu-item a {
+		font-family: "Lexend";
+		margin-left: 0;
+		margin-right: 1vw;
+		margin-top: 1vw;
+		border-radius: 3vw;
+		padding: 1.1vw;
+		background-color: var(--berry);
+		transition: background-color 0.3s ease;
+	}
+
+	li a:hover {
+		background-color: var(--dustypink);
+	}
+
+	li a:visited {
+		color: white;
+	}
+}
+
+.menu-item {
+	font-family: "Lexend";
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	font-size: 2.5vw;
+	position: sticky;
+	justify-content: space-between;
+	border-radius: 0;
+	background-color: transparent;
+	transition: background-color 0.3s ease;
+}
+
+.menu-item > a:hover {
+	background-color: var(--dustypink);
+}
+
+.drop-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: var(--berry);
+	border-radius: 1vw;
+	padding: 0;
+	min-width: auto;
+}
+
+.drop-menu li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+.drop-menu li a {
+	display: block;
+	margin: 0.5vw;
+	padding: 0.5vw;
+	border-radius: 0;
+}
+
+.menu-item:hover .drop-menu {
+	display: block;
+}
+@media only screen and (min-width: 961px) {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	h1 {
+		font-size: 8vw;
+	}
+	h2 {
+		font-size: 4vw;
+	}
+	h3 {
+		font-size: 2vw;
+	}
+	li {
+		font-family: "Lexend";
+		font-size: 2.5vw;
+		position: sticky;
+		justify-content: space-between;
+		border-radius: 3vw;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+	}
+
+	li a,
+	.menu-item a {
+		font-family: "Lexend";
+		margin-left: 0;
+		margin-right: 1vw;
+		margin-top: 1vw;
+		border-radius: 3vw;
+		padding: 1.1vw;
+		display: block;
+		background-color: var(--berry);
+		transition: background-color 0.3s ease;
+	}
+
+	li a:hover {
+		background-color: var(--dustypink);
+	}
+
+	li a:visited {
+		color: white;
+	}
+}
+@media only screen and (min-width: 1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	h1 {
+		font-size: 8vw;
+	}
+	h2 {
+		font-size: 4vw;
+	}
+	h3 {
+		font-size: 2vw;
+	}
+	li {
+		font-family: "Lexend";
+		font-size: 2.5vw;
+		position: sticky;
+		justify-content: space-between;
+		border-radius: 3vw;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+	}
+
+	li a,
+	.menu-item a {
+		font-family: "Lexend";
+		margin-left: 0;
+		margin-right: 1vw;
+		margin-top: 1vw;
+		border-radius: 3vw;
+		padding: 1vw;
+		background-color: var(berry);
+		transition: background-color 0.3s ease;
+	}
+
+	li a:hover {
+		background-color: var(--dustypink);
+	}
+
+	li a:visited {
+		color: white;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	/* hi-res laptops and desktops */
+	h1 {
+		font-size: 6.5vw;
+	}
+	h2 {
+		font-size: 2.2vw;
+		margin-bottom: 1vw;
+	}
+	h3 {
+		font-size: 1.5vw;
+	}
+	li {
+		font-family: "Lexend";
+		font-size: 1.5vw;
+		position: sticky;
+		justify-content: space-between;
+		border-radius: 3vw;
+		background-color: transparent;
+		transition: background-color 0.3s ease;
+	}
+
+	li a,
+	.menu-item a {
+		font-family: "Lexend";
+		font-size: 1.5vw;
+		margin-left: 0;
+		margin-right: 1vw;
+		margin-top: 1vw;
+		border-radius: 3vw;
+		padding: 0.75vw;
+		background-color: var(--berry);
+		transition: background-color 0.3s ease;
+	}
+
+	li a:hover {
+		background-color: var(--dustypink);
+	}
+
+	li a:visited {
+		color: white;
+	}
+}
+
+/*fonts found here*/
+.lexend-uniquifier {
+	font-family: "Lexend", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Gazebo";
+	src: url("https:er1k4.neocities.org/misc/fonts/GuyonGazebo-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.dm-serif-text-regular {
+	font-family: "DM Serif Text", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+	font-family: "DM Serif Text", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*fonts end here lol*/
+
+* {
+	color: white;
+	box-sizing: border-box;
+	justify-content: space-evenly;
+}
+
+body {
+	padding: 0 2px 2px 2px;
+	font-family: "MS PGothic", sans-serif;
+	color: var(--text);
+	background-image: url("randm shit lol/tumblr_cb9e164e1b9961a61cc258f9eec29e0f_b6ea5c48_100.webp");
+	justify-content: space-evenly;
+}
+
+.a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+pre {
+	overflow-x: auto;
+}
+linebreak {
+	background: url("https://web.archive.org/web/20090830213213im_/http://www.geocities.com/butterfly_teez/bgpurpleblinkstars.gif");
+}
+
+.col-sm-3 {
+	padding: 1px;
+}
+
+.row {
+	margin-bottom: 5px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl,
+.image-wrapper {
+	margin: 5px;
+	max-width: 130%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	position: relative;
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
+	margin-right: auto;
+	margin-left: auto;
+}
+.image-wrapper img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.content-overlay {
+	/* This pins the text directly over the image */
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+container.img {
+	display: inline-block;
+}
+img.hover-shadow {
+	transition: 0.03s;
+}
+.hover-shadow:hover {
+	box-shadow:
+		0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallerycontainer {
+	max-width: 95%;
+	margin: 5px auto 5px auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	justify-content: space-evenly;
+	background-color: var(--dustypink);
+}
+
+/* these control the column widths */
+.small {
+	flex: 1 1 9%;
+}
+.large {
+	flex: 1 1 82%;
+}
+.half {
+	flex: 1 1 49%;
+}
+.halfs {
+	flex: 1 1 49%;
+	display: inline-block;
+	margin: 0 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+
+header {
+	background-size: 100px;
+	background-position: center;
+	text-align: center;
+	margin: 5px 5px 5px;
+	width: 100%;
+	height: auto; /* change banner height here*/
+	border-radius: 5px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+header span {
+	font-size: 2.5vw;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* unvisited link */
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* visited link */
+a:visited {
+	color: white;
+}
+
+a:visited:hover {
+	color: #7c5b85;
+}
+
+/* mouse over link */
+a:hover {
+	color: #7c5b85;
+}
+
+/* selected link */
+a:active {
+	color: white;
+}
+
+section {
+	padding: -5px;
+	background-color: var(--dustypink);
+	margin: 5px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+footer {
+	margin-top: 1.25%;
+	text-align: center;
+	font-size: 20px;
+	background-color: var(--dustypink);
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebyside {
+	display: inline-block;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.sidebyside img {
+	width: 24%; /* a little smaller so 4 fit without rounding issues */
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+h1 {
+	color: var(--berry);
+	font-family: "Gazebo";
+	text-align: left;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 0%;
+}
+h1 a {
+	color: var(--berry);
+}
+
+h2 {
+	color: white;
+	font-family: "Lexend";
+	font-weight: normal;
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-family: "Lexend";
+	margin-bottom: 1vw;
+}
+h4 {
+	color: white;
+	font-family: "Lexend";
+	font-size: 1vw;
+	padding-left: 12px;
+}
+h5 {
+	color: white;
+	font-family: "Lexend";
+	font-size: 1.5vw;
+	margin: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	margin-top: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+}
+ul > li a {
+	list-style: none;
+	position: relative;
+	float: none;
+	display: block;
+}
+
+.easeinout {
+	text-shadow:
+		-1px 0 #000,
+		0 1px #000,
+		1px 0 #000,
+		0 -1px #000,
+		0 0;
+	font-style: italic;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	-webkit-animation: pop 1.6s ease-in-out infinite alternate;
+	animation: pop 1.6s ease-in-out infinite alternate;
+	-moz-animation: pop 1.6s ease-in-out infinite alternate;
+}
+
+@keyframes pop {
+	from {
+		transform: scale(0.95);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(0.95);
+	}
+}
+
+@-webkit-keyframes pop {
+	from {
+		-webkit-transform: scale(0.95);
+	}
+
+	50% {
+		-webkit-transform: scale(1);
+	}
+
+	to {
+		-webkit-transform: scale(0.95);
+	}
+}
+
+#grad1 {
+	height: 200px;
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+a:hover,
+a:focus {
+	font-style: italic;
+}
+a:visited {
+	color: var(--accent);
+}
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(var(--dustypink), var(--mauve));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 400;
+}
+.loader {
+	display: inline-block;
+	width: auto;
+	position: relative;
+	background-color: transparent;
+}
