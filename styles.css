@@ -267,7 +267,7 @@
 }
 @font-face {
 	font-family: "Gazebo";
-	src: url("https:er1k4.neocities.org/misc/fonts/GuyonGazebo-Regular.woff") format("woff");
+	src: url("/GuyonGazebo-Regular.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
