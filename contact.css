@@ -19,6 +19,23 @@ body {
 	margin:0 !important;
 }
 
+h1 {
+	color: var(--berry);
+	font-family: "Gazebo";
+	text-align: left;
+	margin-bottom: 2%;
+	margin-top: 0%;
+}
+h1 a {
+	color: var(--berry);
+}
+h1 a:hover {
+	font: italic;
+}
+.content-overlay h1 a:hover {
+	text-decoration: none;
+}
+
 .contact-left textarea {
 	height:30vh;
 	padding-top:15px;
