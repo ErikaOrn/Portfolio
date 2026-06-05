@@ -262,7 +262,7 @@
 }
 @font-face {
 	font-family: "Gazebo";
-	src: url("assets/font/GuyonGazebo-Regular.otf") format("otf");
+	src: url("assets/font/GuyonGazebo-Regular.otf") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
